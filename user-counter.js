@@ -4,14 +4,13 @@ let database;
 
 // Fallback configuration for development (remove in production)
 const fallbackConfig = {
-    apiKey: "YOUR_API_KEY_HERE",
-    authDomain: "your-project.firebaseapp.com",
-    databaseURL: "https://your-project-default-rtdb.region.firebasedatabase.app",
-    projectId: "your-project-id",
-    storageBucket: "your-project.firebasestorage.app",
-    messagingSenderId: "123456789",
-    appId: "1:123456789:web:abcdefghijklmnop",
-    measurementId: "G-XXXXXXXXXX"
+    apiKey: "AIzaSyBj2Rr5S0-FS8JfV6kLR243_DAF82ud8vw",
+    authDomain: "ai-prep-f1a16.firebaseapp.com",
+    databaseURL: "https://ai-prep-f1a16-default-rtdb.firebaseio.com",
+    projectId: "ai-prep-f1a16",
+    storageBucket: "ai-prep-f1a16.firebasestorage.app",
+    messagingSenderId: "145563438416",
+    appId: "1:145563438416:web:49cc7ff2a31cdaaf433055"
 };
 
 function initializeFirebaseConnection() {
@@ -301,4 +300,4 @@ setInterval(() => {
             });
         }
     });
-}, 60 * 60 * 1000); // Run every hour 
+}, 60 * 60 * 1000); // Run every hour
